@@ -28,11 +28,7 @@ function generateJWT(user: User): string {
 }
 
 export function requireAuth(req: Request, res: Response, next: NextFunction) {
-<<<<<<< HEAD:course-03/exercises/udacity-c3-restapi-user/src/controllers/v0/users/routes/auth.router.ts
  //  return next();
-=======
-//   return next();
->>>>>>> a50477a2a7bbce7b182926fb3da1541115385dd6:course-03/exercises/udacity-c3-restapi-user/src/controllers/v0/users/routes/auth.router.ts
     if (!req.headers || !req.headers.authorization){
         return res.status(401).send({ message: 'No authorization headers.' });
     }
