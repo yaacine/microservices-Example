@@ -24,5 +24,4 @@ You'll need to install docker https://docs.docker.com/install/. Open a new termi
  I user Terraform for aws provisionning and Kubeone for installing and managing Kubernates on AWS infrastructure. I followed the instractions in this documentations link:  https://github.com/kubermatic/kubeone/blob/master/docs/quickstart-aws.md
  
  
-
-
+# Results could be found in the screenshots folder 
