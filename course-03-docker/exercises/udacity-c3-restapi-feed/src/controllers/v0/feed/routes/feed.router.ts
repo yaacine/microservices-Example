@@ -3,6 +3,10 @@ import { FeedItem } from '../models/FeedItem';
 //import { /*requireAuth*/ } from '../../users/routes/auth.router';
 import * as AWS from '../../../../aws';
 import * as c from '../../../../config/config';
+import * as bcrypt from 'bcrypt';
+import * as jwt from 'jsonwebtoken';
+import { NextFunction } from 'connect';
+
 
 const router: Router = Router();
 
