@@ -1,13 +1,23 @@
 # cloud-developer
-Third projrct of Udacity's cloud developer nanodegree .
+Third project of Udacity's cloud developer nanodegree .
 
 ## STEP 1 : Setup Docker Environment
 
 You'll need to install docker https://docs.docker.com/install/. Open a new terminal within the project directory and run:
 
-  -Build the images: docker-compose -f docker-compose-build.yaml build --parallel
-  -Push the images: docker-compose -f docker-compose-build.yaml push
-  -Run the container: docker-compose up
+  Build the images: 
+```bash
+   docker-compose -f docker-compose-build.yaml build --parallel
+```
+  Push the images: 
+ ```bash 
+  docker-compose -f docker-compose-build.yaml push
+```
+  Run the container:
+ ```bash 
+   docker-compose up
+```
+
 
 ## STEP 2: Creating AWS infrastructure and installing Kubernates on it and run the containers
  
